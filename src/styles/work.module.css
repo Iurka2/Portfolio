@@ -25,7 +25,7 @@
 .card1{
   display: grid;
   max-height: 55vh;
-  max-width: 55vw;
+  width: 45vw;
   color: var(--black);
   background-color: var(--white);
   border-radius: 15px;
@@ -107,7 +107,7 @@
   justify-content: center;
   border-radius: 15px;
   cursor: pointer;
-  width: 35vw;
+  width: 45vw;
 }
 
 .next_proj{

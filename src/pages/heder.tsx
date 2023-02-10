@@ -58,7 +58,7 @@ const Heder = () => {
 
                 },
               });
-            }} variants={fadeEffect2} className="heder1 hover-underline-animation ">Get in tuch</motion.h1>
+            }} variants={fadeEffect2} className="heder1 hover-underline-animation ">Get in touch</motion.h1>
          
     </motion.div>
   </motion.nav>
