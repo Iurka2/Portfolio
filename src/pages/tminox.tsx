@@ -80,7 +80,8 @@ const TmInox = () => {
     <link rel="icon" href="/favicon.ico" />
  </Head>
   <main className={styles.utilMain} id="top" >
-  <TopPart img={screen3}
+  <TopPart 
+  img={screen3}
    alt="hello" 
    title="TmInox Website Redesign" 
    role={RenderRoles()}

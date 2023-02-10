@@ -1,5 +1,5 @@
 import styles from '@/styles/util.module.css'
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { ParallaxBanner, ParallaxBannerLayer,Parallax } from 'react-scroll-parallax';
 import {  motion } from 'framer-motion';
 import React, { useRef } from "react";
@@ -28,16 +28,16 @@ const fadeEffect = {
 }
 
 type Top = {
-  img: object;
+  img: StaticImageData;
   alt: string;
   title: string;
-  role:object;
+  role:React.ReactNode;
   breif:string;
-  text:object;
+  text:React.ReactNode;
 };
 
 
-  const TopPart:React.FunctionComponent<Top> = ({img,alt, title,role,breif,text}) => {
+  const TopPart= ({img,alt, title,role,breif,text}: Top) => {
 
     const buttonRef = useRef(null);
 
@@ -126,6 +126,7 @@ type Top = {
   <ParallaxBanner  className={styles.topContainer} >
     <ParallaxBannerLayer speed={-20}  >
       <Image 
+ 
       src={img} 
       alt={alt} 
       priority
