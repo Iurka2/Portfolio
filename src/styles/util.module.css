@@ -1,0 +1,311 @@
+
+.topAllContainer{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 10vh;
+  background-color: var(--black);
+  justify-content: center;
+  align-items: flex-end;
+  
+  }
+
+  .images{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .utilMain{
+    background-color: var(--white);
+  }
+
+  
+  .topContainer{
+    grid-column: 1/ span 6 ;
+    grid-row: 1 /  span 10 ;
+  align-self: flex-start;
+width: 100%;
+height: 100%;
+overflow: "hidden";
+
+}
+  
+  
+
+  
+
+  .topTextContainer{
+  grid-column:1 / span 3 ;
+  grid-row: 2 / span 9 ;
+  justify-self: flex-start ;
+  align-self: flex-start;
+  z-index: 0  ;
+
+  color: var(--white);
+  margin-left: 10%;
+
+  }
+
+  .title{
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+.brief{
+  font-size: 1rem;
+  text-transform: none;
+  max-width: 40vw;
+}
+
+.roles{
+
+  line-height: 2rem;
+  color: var(--white);
+  display: block;
+  font-weight: 500;
+}
+  
+  
+  
+  .topText{
+    font-size: var(--subheading);
+    margin: 0;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 24px;
+    text-transform: uppercase;
+  }
+  .topText2{
+    font-size: var(--subheading);
+    margin: 0;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 24px;
+    text-transform: uppercase;
+  }
+
+  .icon{
+    grid-column:1 / span 6 ;
+    grid-row: 1 / span 10 ;
+    justify-self: center ;
+    align-self: flex-end;
+    cursor: pointer;
+    z-index: 0  ;
+    text-transform: uppercase;
+    color: var(--white);
+    margin: var(--defaultmargin);
+    font-size: var(--subheading);
+    margin-bottom: 10px;
+  }
+.topAllContainerMobile{
+  display: none;
+}
+
+.flexbox{
+  display: flex;
+  gap: 10%;
+
+}
+
+.skill_container{
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  max-width: 20vw;
+  margin-top: 14px;
+}
+
+.skill_container2{
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  max-width: 20vw;
+  margin-top: 14px;
+}
+.skill{
+  background-color: var(--green);
+  border-radius: 10px;
+  margin: 1px 5px;
+  padding: 1px 10px;
+  line-height: 2rem;
+  color: var(--black);
+  display: inline-block;
+  font-weight: 500;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gridgallery{
+  display: flex;
+  flex-direction: column;
+   margin: 5%;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.ImgCont{
+width: 70vw;
+height: 70vh;
+position: relative;
+margin-bottom: 5%;
+}
+.Imagess{
+  object-fit: cover;
+ width: 100%;
+
+}
+
+.button_style{
+  background-color: #191716;
+cursor: pointer;
+  border: none;
+}
+
+
+.topAllContainerMobile{
+  display: none;
+}
+
+.boottomTextContainer{
+  display: none;
+}
+
+
+  @media screen and (max-width: 830px) {
+
+    .topAllContainer{
+      display: none;
+      }
+
+      
+.topAllContainerMobile{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 10vh;
+  background-color: var(--black);
+  justify-content: center;
+  align-items: flex-end;
+}
+
+    .topTextContainer{
+      grid-column:1 / span 6 ;
+      grid-row: 1/ span 10;
+      justify-self: center ;
+      align-self: center;
+      color: var(--white);
+      margin: var(--mobilemargin);
+      }
+  
+      .icon{
+        font-size: var(--heading);
+      }
+
+      .boottomTextContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: #191716;
+        padding-bottom: 24px;
+      }
+
+
+      .title{
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    .brief{
+      font-size: 3rem;
+      text-transform: none;
+      max-width: 90vw;
+      margin-left: 10px;
+    }
+    
+    .roles{
+      line-height: 4rem;
+      color: var(--white);
+      display: block;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+      
+    .flexbox{
+      display: flex;
+      gap: 0%;
+      justify-content: space-between;
+      margin: 0 10px 0 10px;
+ 
+    }
+      
+      .topText{
+        font-size: 4rem;
+        margin: 0;
+        font-weight: 600;
+        color: var(--white);
+        margin-top: 24px;
+        text-transform: uppercase;
+      }
+
+      .topText2{
+        font-size: 4rem;
+        margin: 0;
+        font-weight: 600;
+        color: var(--white);
+        margin-top: 24px;
+        margin-left: 10px;
+        text-transform: uppercase;
+      }
+      .skill_container{
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+        max-width: 50vw;
+        cursor: default;
+      }
+      
+      .skill_container2{
+        align-self: flex-start;
+        margin: 0;
+        padding: 0;
+        max-width: 50vw;
+        cursor: default;
+      }
+      
+      .skill{
+        border-radius: 4px;
+        margin: 1px 2px;
+        padding: 5px 8px; 
+        font-size: 2.2rem;
+      }
+
+      .myrole{
+        width: 45vw;
+      }
+
+      .gridgallery{
+        display: flex;
+        flex-direction: column;
+         margin: 5%;
+        align-items: center;
+        justify-content: center;
+        
+      
+      }
+      .ImgCont{
+      width: 90vw;
+      height: 20vh;
+      position: relative;
+      margin-bottom: 5%;
+
+      }
+      .Imagess{
+        object-fit: contain;
+  
+      
+      }
+
+  }
