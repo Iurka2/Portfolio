@@ -152,10 +152,10 @@ overflow: "hidden";
 width: 70vw;
 height: 70vh;
 position: relative;
-margin-bottom: 5%;
+margin-bottom: 2%;
 }
 .Imagess{
-  object-fit: cover;
+  object-fit: contain;
  width: 100%;
 
 }
