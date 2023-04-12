@@ -82,6 +82,9 @@ const Ecult = () => {
 
   <main>
   <TopPart img={screen3}
+    link1={null}
+    link2="https://github.com/Iurka2/Reprem"
+    link3="https://e-cult.com"
    alt="furniture project" 
    title="E-cult Concept Webiste"
    breif="A mobile ad website that uses 3D models built with Three.js to showcase products or services in a dynamic and immersive way. With interactive 3D models, the ad can demonstrate the features and benefits of the products or services in a way that traditional 2D ads cannot. Whether promoting a new product, a limited time offer, or a special sale, this mobile ad website will captivate and engage users in a unique and memorable way. "

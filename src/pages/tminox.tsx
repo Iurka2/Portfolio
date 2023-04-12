@@ -82,6 +82,9 @@ const TmInox = () => {
   <main className={styles.utilMain} id="top" >
   <TopPart 
   img={screen3}
+  link1="https://www.figma.com/file/DK5pusG7Q5DBtw08L4RjKm/TEAM-CRISA-%26-CEREPAHA-team-library?node-id=3009%3A465&t=6wNbU6og47Q2U2F5-1"
+  link2="https://github.com/chunkmd/tm_inox_3"
+  link3="https://tm-inox-3.vercel.app"
    alt="hello" 
    title="TmInox Website Redesign" 
    role={RenderRoles()}

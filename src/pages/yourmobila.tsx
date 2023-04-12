@@ -74,6 +74,9 @@ const YourMobila = () => {
  </Head>
   <main>
   <TopPart img={screen3}
+    link1="https://www.figma.com/file/DK5pusG7Q5DBtw08L4RjKm/TEAM-CRISA-%26-CEREPAHA-team-library?node-id=3009%3A466&t=6wNbU6og47Q2U2F5-1"
+    link2="https://github.com/Iurka2/YourMobila"
+    link3="https://yourmobila.com"
    alt="furniture project" 
    title="YourMobila Website"
    breif="Designed and developed a visually appealing website for a custom furniture company. The website showcases their unique furniture pieces through high-quality images, providing potential clients with a comprehensive understanding of their products and services. Implemented seamless navigation to allow for an enjoyable browsing experience. The website has effectively elevated the company's online presence and strengthened their reputation. "
