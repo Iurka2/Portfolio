@@ -38,6 +38,13 @@ const Heder = () => {
     </motion.div>
 
     <motion.div variants={fadeEffect2} className="heder_small">
+
+
+
+    <a target="_blank" rel="noreferrer" href="/Resources/CVVVV.pdf">
+        <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">CV</motion.h1>
+       </a>
+
      <Link href='/work'>
       <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">Work</motion.h1>
      </Link>
@@ -45,6 +52,7 @@ const Heder = () => {
        <Link href='/about'>
         <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">About</motion.h1>
        </Link>
+
 
          
           <motion.h1 onClick={() => {

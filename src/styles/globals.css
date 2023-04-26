@@ -126,6 +126,16 @@ a {
 
 
 
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  gap: 14px;
+}
+
+
+
 @media screen and (max-width: 630px) {
 
   .heder{

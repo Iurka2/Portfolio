@@ -151,9 +151,10 @@ margin-top: 24px;
   display: flex;
   gap: 14px;
   margin-top: 24px;
-  margin-bottom: 10%;
+  margin-bottom: 50px;
 
 }
+
 
 .card_samll{
   display: flex;
@@ -165,6 +166,11 @@ margin-top: 24px;
   background-color: var(--green);
   border-radius: 15px;
 
+}
+
+.d3d{
+  width: 100vw;
+  height: 500px;
 }
 
 .card_heading_small{
