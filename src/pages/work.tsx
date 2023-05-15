@@ -104,7 +104,7 @@ const Wrok = () => {
        <Link href="/yourmobila"  >
           <motion.div initial='initial' animate='animate'    className={styles.card2}>
             <motion.div whileHover={{scale:1.1}} transition={{type:'tween',ease:"easeOut", duration:0.5}} className={styles.image2Container}>
-            <Image priority src={screen} alt="Project"/>
+            <Image priority className={styles.image4} src={screen} alt="Project"/>
             </motion.div>
           </motion.div>
         </Link>

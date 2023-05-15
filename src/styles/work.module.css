@@ -423,5 +423,20 @@ margin-top: 24px;
     cursor: pointer;
     width: 90vw;
   }
+
+  .image2Container{
+    align-self: center;
+    justify-self: center;
+    grid-column: 1/ span 4;
+    grid-row: 1 / span 4;
+    width: 50%;
+  }
+  
+
+  .image4{
+width: 80%;
+padding-left: 10%;
+
+  }
   
 }
