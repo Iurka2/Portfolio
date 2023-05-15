@@ -18,9 +18,9 @@ const fadeEffect = {
     y: 0,
     transition: {
       type: "spring",
-      mass: 0.5,
+   
       damping: 20,
-      staggerChildren: 0.35,
+      staggerChildren: 0.20,
     }
 
   }

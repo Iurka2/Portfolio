@@ -79,7 +79,7 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true, amount: 0.4  }}
               variants={fadeEffect} >
-       <motion.h1  variants={fadeEffect}  className={styles.card_heder}>I love to code and develop user friendly designs.</motion.h1>
+       <motion.h1  variants={fadeEffect}  className={styles.card_heder}>Your website should be as unique as you are. Let's make it happen !</motion.h1>
        <motion.div className={styles.images_container}>
        <Image className={styles.images} src={me} alt='Glass of wine/Pahar vin' />
        </motion.div>
@@ -91,17 +91,9 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true, amount: 0.4  }}
               variants={fadeEffect}>
-              <motion.h2  variants={fadeEffect}>I’m a junior developer looking to start my career.</motion.h2>
-              <motion.p  variants={fadeEffect}>With a few projects behind my back, I am ready to take on the
-next big challenge in the IT industry. I am a bit of a geek, so I keep
-up with the latest software and design trends on awwwards,
-dribble and medium.<br /> <br /> I have a passion for coding and product development
-and I always strife to achieve the best possible results in a
-manageable time frame. I am not scared to take on a big task
-and can take initiative when needed.<br /> <br /> I am reliable and
-responsible with my tasks, and I would love to work in a team to
-further develop my social and professional skills. Jeg er også i gang
-med at lære dansk
+              <motion.h2  variants={fadeEffect}>Turning abstract ideas into tangible digital realities</motion.h2>
+              <motion.p  variants={fadeEffect}>
+              As an accomplished web developer, I specialize in creating customized, engaging, and user-friendly web solutions, using a unique blend of creativity and technical skills.<br/> <br/> My diverse portfolio showcases the potential to elevate businesses online using modern web development technologies. I take pride in translating your ideas into digital realities that exceed expectations, whether you're a startup in need of a fresh online presence or an established business aiming for a digital revamp.<br/><br/> Committed to delivering personalized, efficient service, I am your ideal partner for an innovative digital journey, ready to enhance your business and elevate your brand through robust web solutions. 
               </motion.p>
             </motion.div>
 

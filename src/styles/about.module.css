@@ -9,7 +9,7 @@
   margin-top: 7%;
   margin-bottom: 24px;
   font-size: 5rem;
-  text-transform: uppercase;
+
 
 }
 
@@ -20,8 +20,8 @@
 grid-template-rows: repeat(5, 5vw);
   align-items: center;
    height: 24.5vw;
-  background-color: var(--green);
-  color: var(--black);
+  background-color: var(--darkBlack);
+  color: var(--white);
   border-radius: 16px;
 }
 .card_heder{
@@ -29,6 +29,11 @@ grid-template-rows: repeat(5, 5vw);
   grid-row: 3/3;
   padding-left: 7%;
   font-weight: 600;
+  background-image: linear-gradient(180deg,#EEFFC2,#D4FF69);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .images_container{
@@ -56,7 +61,11 @@ height: 110%;
 .flex_container2 > h2{
   width: 50vw;
   font-weight: 500;
-  text-transform: uppercase;
+  background-image: linear-gradient(120deg,#EEFFC2 8%,#D4FF69 88%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
   font-size: var(--heading);
 margin: 0;
 margin-top: 24px;
@@ -82,10 +91,11 @@ margin-top: 24px;
   grid-template-rows: 5vh 1fr;
   align-items: center;
   justify-content: center;
-  color: var(--black);
+  color: var(--white);
+  
   width: 45vw;
   height: 20vw;
-  background-color: var(--green);
+  background-color: var(--darkBlack);
   border-radius: 15px;
 }
 
@@ -94,7 +104,7 @@ margin-top: 24px;
   grid-column: 1 / span 4;
   margin:10px 0 0 14px;
   font-weight: 600;
-  text-transform: uppercase;
+
   align-self: flex-start;
  
 }

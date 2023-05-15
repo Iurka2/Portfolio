@@ -4,11 +4,12 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family:'Chillax','sans';
-  background-color: #191716;
+  background-color: #161617;
   color: var(--white);
 
   scroll-behavior: smooth;
-  --black: #191716;
+  --black: #161617;
+  --darkBlack:#000000 ;
   --green:#CAFE48;
   --white: #F0EDEE;
   --grey: #C6C6C6;
