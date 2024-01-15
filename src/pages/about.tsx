@@ -29,6 +29,7 @@ const list_skills = [
   {id:1, text:'HTML'},
   {id:2, text:'CSS'},
   {id:3, text:'JavaScript'},
+  {id:17, text:'C#'},
   {id:4, text:'Figma'},
   {id:5, text:'XD'},
   {id:6, text:'Premier Pro'},
@@ -41,8 +42,10 @@ const list_skills = [
   {id:13, text:'Firebase'},
   {id:14, text:'Blender'},
   {id:15, text:'i18n'},
+  {id:16, text:'Unity'},
 
-    ]
+
+    ] 
 
     const list_hobbies = [
       {id:1, text:'Gaming'},
@@ -79,9 +82,9 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true, amount: 0.4  }}
               variants={fadeEffect} >
-       <motion.h1  variants={fadeEffect}  className={styles.card_heder}>Your website should be as unique as you are. Let's make it happen !</motion.h1>
+       <motion.h1  variants={fadeEffect}  className={styles.card_heder}>Problem Solver With A Passion For Coding And Game Development</motion.h1>
        <motion.div className={styles.images_container}>
-       <Image className={styles.images} src={me} alt='Glass of wine/Pahar vin' />
+       <Image className={styles.images} src={me} alt='A handsome young men' />
        </motion.div>
       </motion.div>
 
@@ -91,9 +94,9 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true, amount: 0.4  }}
               variants={fadeEffect}>
-              <motion.h2  variants={fadeEffect}>Turning abstract ideas into tangible digital realities</motion.h2>
+              <motion.h2  variants={fadeEffect}>Let's Do Something Great Together</motion.h2>
               <motion.p  variants={fadeEffect}>
-              As an accomplished web developer, I specialize in creating customized, engaging, and user-friendly web solutions, using a unique blend of creativity and technical skills.<br/> <br/> My diverse portfolio showcases the potential to elevate businesses online using modern web development technologies. I take pride in translating your ideas into digital realities that exceed expectations, whether you're a startup in need of a fresh online presence or an established business aiming for a digital revamp.<br/><br/> Committed to delivering personalized, efficient service, I am your ideal partner for an innovative digital journey, ready to enhance your business and elevate your brand through robust web solutions. 
+              As an accomplished web developer, I specialize in creating customized, engaging, and user-friendly web solutions, using a unique blend of creativity and technical skills.<br/> <br/> My diverse portfolio showcases the potential to elevate businesses online using modern web development technologies. I take pride in translating ideas into digital solutions, whether you're a startup in need of a fresh online presence or an established business aiming for a digital revamp.<br/><br/> Committed to delivering personalized, efficient service, I am your ideal partner for an innovative digital journey, ready to enhance your business and elevate your brand through robust web solutions. 
               </motion.p>
             </motion.div>
 

@@ -37,7 +37,7 @@ grid-template-rows: repeat(5, 5vw);
 }
 
 .images_container{
-  grid-column: 6/span 5 ;
+  grid-column: 7/span 5 ;
   grid-row:4 / span 2;
   align-self: flex-end;
   width: 90%; 

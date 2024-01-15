@@ -95,7 +95,7 @@ const Ecult = () => {
    <div className={styles.gridgallery}>
     {image_list.map((image) => (
             <motion.div  key={image.id}  className={styles.ImgCont} >
-             <Image className={styles.Imagess} src={image.img} alt='Showcase image of project' fill  />
+             <Image className={styles.Imagess} src={image.img} alt='Showcase image of project' width={1000} height={700}   />
            </motion.div>
     ))}
     </div>

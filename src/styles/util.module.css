@@ -142,22 +142,19 @@ overflow: "hidden";
 .gridgallery{
   display: flex;
   flex-direction: column;
-   margin: 5%;
+
   align-items: center;
   justify-content: center;
   
 
 }
 .ImgCont{
-width: 70vw;
-height: 70vh;
-position: relative;
-margin-bottom: 2%;
+
+margin-bottom: 1%;
 }
 .Imagess{
   object-fit: contain;
- width: 100%;
-
+ 
 }
 
 .icons{
