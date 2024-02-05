@@ -142,7 +142,7 @@ overflow: "hidden";
 .gridgallery{
   display: flex;
   flex-direction: column;
-
+  background-color: #191716;
   align-items: center;
   justify-content: center;
   
@@ -166,9 +166,10 @@ margin-bottom: 1%;
 }
 
 .button_style{
-  background-color: #191716;
+
 cursor: pointer;
   border: none;
+
 }
 
 

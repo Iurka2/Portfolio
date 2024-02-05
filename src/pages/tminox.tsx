@@ -54,20 +54,12 @@ const TmInox = () => {
 
 
           const image_list = [
-            {id:13, img:'/Resources/tminoxP/tminox13.jpg'},
-            {id:11, img:'/Resources/tminoxP/tminox11.jpg'},
-            {id:12, img:'/Resources/tminoxP/tminox12.jpg'},
+            {id:1, img:'/Resources/tminoxP/tminox6.jpeg'},
+            {id:6, img:'/Resources/tminoxP/tminox1.jpg'},
             {id:2, img:'/Resources/tminoxP/tminox2.jpg'},
             {id:3, img:'/Resources/tminoxP/tminox3.jpg'},
             {id:4, img:'/Resources/tminoxP/tminox4.jpg'},
-            {id:5, img:'/Resources/tminoxP/tminox5.jpg'},
-            {id:6, img:'/Resources/tminoxP/tminox6.jpg'},
-            {id:7, img:'/Resources/tminoxP/tminox7.jpg'},
-            {id:8, img:'/Resources/tminoxP/tminox8.jpg'},
-            {id:9, img:'/Resources/tminoxP/tminox9.jpg'},
-            {id:1, img:'/Resources/tminoxP/tminox1.jpg'},
-            {id:10, img:'/Resources/tminoxP/tminox10.jpg'},
-       
+            {id:5, img:'/Resources/tminoxP/tminox5.png'}
               ]
 
   return ( 
@@ -95,16 +87,12 @@ const TmInox = () => {
    <div className={styles.gridgallery}>
     {image_list.map((image) => (
             <motion.div  key={image.id}  className={styles.ImgCont} >
-             <Image className={styles.Imagess} src={image.img} alt='Showcase image of project' width={1000} height={700}   />
+             <Image className={styles.Imagess} src={image.img} alt='Showcase image of project' width={800} height={700}   />
            </motion.div>
     ))}
     </div>
 
-    <div style={{display:'flex', justifyContent:'center',alignItems:'center',paddingBottom:'24px'}}>
-      <a href="#top">
-      <button style={{backgroundColor:'#F0EDEE'}} className={styles.button_style}><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" ><circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line></svg></button>
-      </a>
-    </div>
+
     </main>
   </> 
   );

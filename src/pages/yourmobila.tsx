@@ -51,15 +51,11 @@ const YourMobila = () => {
 
 
           const image_list = [
-            {id:1, img:'/Resources/yourmobila/your1.jpg'},
-            {id:2, img:'/Resources/yourmobila/your2.jpg'},
-            {id:3, img:'/Resources/yourmobila/your3.jpg'},
-            {id:4, img:'/Resources/yourmobila/your4.jpg'},
-            {id:5, img:'/Resources/yourmobila/your5.jpg'},
-            {id:6, img:'/Resources/yourmobila/your9.jpg'},
-            {id:7, img:'/Resources/yourmobila/your6.jpg'},
-            {id:8, img:'/Resources/yourmobila/your7.jpg'},
-            {id:9, img:'/Resources/yourmobila/your8.jpg'},
+            {id:1, img:'/Resources/yourmobila/your1.png'},
+            {id:2, img:'/Resources/yourmobila/your2.png'},
+            {id:3, img:'/Resources/yourmobila/your3.png'},
+            {id:4, img:'/Resources/yourmobila/your4.png'},
+            {id:5, img:'/Resources/yourmobila/your5.png'}
 
               ]
 
@@ -91,11 +87,7 @@ const YourMobila = () => {
            </motion.div>
     ))}
     </div>
-    <div style={{display:'flex', justifyContent:'center',alignItems:'center',paddingBottom:'24px'}}>
-      <a className={styles.aebati} href="#top">
-      <button className={styles.button_style}><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#F0EDEE" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" ><circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line></svg></button>
-      </a>
-    </div>
+ 
     </main>
   </> 
   );

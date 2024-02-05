@@ -131,8 +131,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
+  margin:24px 0;
   gap: 14px;
+
 }
 
 
