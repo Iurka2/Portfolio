@@ -295,21 +295,17 @@ cursor: pointer;
       .gridgallery{
         display: flex;
         flex-direction: column;
-         margin: 5%;
+        background-color: #191716;
         align-items: center;
         justify-content: center;
         
       
       }
-      .ImgCont{
-      width: 90vw;
-      height: 20vh;
-      position: relative;
-      margin-bottom: 5%;
-
-      }
+ 
       .Imagess{
         object-fit: contain;
+        width: 60vw;
+        height: 50vw;
   
       
       }
