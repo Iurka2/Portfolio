@@ -117,7 +117,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <motion.div variants={fadeEffect} initial='hidden' animate='visible' className={styles.top_text}>
-        <motion.h1 variants={fadeEffect}>Bogdan Iurie-Iacob</motion.h1>
+        <motion.h1 variants={fadeEffect}>Iurie-Iacob Bogdan</motion.h1>
         <motion.h2 variants={fadeEffect}>Web Developer | Designer</motion.h2>
         </motion.div>
 
