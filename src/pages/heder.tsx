@@ -49,9 +49,15 @@ const Heder = () => {
       <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">Work</motion.h1>
      </Link>
 
+     
+     <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/u/1/folders/1fXf0QfP8Dt8MEDILkuENZyKhv96RyouB">
+        <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">Game development</motion.h1>
+     </a>
+
        <Link href='/about'>
         <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">About</motion.h1>
        </Link>
+
 
 
          
