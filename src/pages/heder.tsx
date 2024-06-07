@@ -41,7 +41,7 @@ const Heder = () => {
 
 
 
-    <a target="_blank" rel="noreferrer" href="/Resources/CVVV.pdf">
+    <a target="_blank" rel="noreferrer" href="/Resources/IurieCV.pdf">
         <motion.h1 variants={fadeEffect2} className="heder1 hover-midline-animation ">CV</motion.h1>
        </a>
 
